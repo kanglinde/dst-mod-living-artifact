@@ -1,0 +1,39 @@
+local lan = GetModConfigData("lan")
+
+if lan == "cn" then
+     STRINGS.NAMES.LIVING_ARTIFACT = "活性机甲"
+     STRINGS.RECIPE_DESC.LIVING_ARTIFACT = "让我们把它们合为一体看看会怎么样。" 
+     STRINGS.CHARACTERS.GENERIC.DESCRIBE.LIVING_ARTIFACT = "一种古老的战争机器！我得好好评估一下它的功能！" 
+
+     STRINGS.NAMES.INFUSED_IRON = "注能铁块"
+     STRINGS.CHARACTERS.GENERIC.DESCRIBE.INFUSED_IRON = "我们可以用它做些很酷的东西。"
+
+     STRINGS.NAMES.LIFEPLANT = "魔力花"
+     STRINGS.CHARACTERS.GENERIC.DESCRIBE.LIFEPLANT = "它看起来饿了。"
+
+     STRINGS.NAMES.WATERDROP = "魔力泉水"
+     STRINGS.CHARACTERS.GENERIC.DESCRIBE.WATERDROP = "惨淡生活中的一滴希望。"
+
+     STRINGS.ACTIONS.IRONTURNON = "开启"
+     STRINGS.ACTIONS.IRONTURNOFF = "关闭"
+     STRINGS.ACTIONS.CHARGE_UP = "充能"
+     STRINGS.ACTIONS.PUNCH = "重击"
+else
+     STRINGS.NAMES.LIVING_ARTIFACT = "Living Artifact"
+     STRINGS.RECIPE_DESC.LIVING_ARTIFACT = "Lets just mix em and see what happens."
+     STRINGS.CHARACTERS.GENERIC.DESCRIBE.LIVING_ARTIFACT = "An ancient war machine! I must appraise its funtionality!"
+
+     STRINGS.NAMES.INFUSED_IRON = "Infused Iron"
+     STRINGS.CHARACTERS.GENERIC.DESCRIBE.INFUSED_IRON = "We could make something cool with this."
+
+     STRINGS.NAMES.LIFEPLANT = "Magic Flower"
+     STRINGS.CHARACTERS.GENERIC.DESCRIBE.LIFEPLANT = "It looks hungry."
+
+     STRINGS.NAMES.WATERDROP = "Magic Water"
+     STRINGS.CHARACTERS.GENERIC.DESCRIBE.WATERDROP = "A drop of life in this bleak existence."
+
+     STRINGS.ACTIONS.IRONTURNON = "Turn On"
+     STRINGS.ACTIONS.IRONTURNOFF = "Turn Off"
+     STRINGS.ACTIONS.CHARGE_UP = "Charge"
+     STRINGS.ACTIONS.PUNCH = "Punch"
+end
